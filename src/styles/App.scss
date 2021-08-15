@@ -16,9 +16,10 @@ $radius: 0.2rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #111827;
 }
 
-.app {
+.App {
   font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: column;
@@ -26,11 +27,12 @@ $radius: 0.2rem;
   align-items: center;
   gap: 2rem;
   height: 100vh;
-  color: $clr-gray500;
+  // color: $clr-gray500;
 }
 
 h1 {
   font-size: 6rem;
+  color: white;
 }
 
 .button__wrapper {
